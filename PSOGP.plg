@@ -1,0 +1,41 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: PSOGP - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\x\LOCALS~1\Temp\RSPEC.tmp" with contents
+[
+/nologo /MLd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_CONSOLE" /D "_MBCS" /Fp"Debug/PSOGP.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"C:\Documents and Settings\x\Desktop\PSOGP 0.6\PSOGP.c"
+]
+Creating command line "cl.exe @C:\DOCUME~1\x\LOCALS~1\Temp\RSPEC.tmp" 
+Creating temporary file "C:\DOCUME~1\x\LOCALS~1\Temp\RSPED.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:console /incremental:yes /pdb:"Debug/PSOGP.pdb" /debug /machine:I386 /out:"Debug/PSOGP.exe" /pdbtype:sept 
+".\Debug\PSOGP.obj"
+]
+Creating command line "link.exe @C:\DOCUME~1\x\LOCALS~1\Temp\RSPED.tmp"
+<h3>Output Window</h3>
+Compiling...
+PSOGP.c
+C:\Documents and Settings\x\Desktop\PSOGP 0.6\PSOGP.c(603) : warning C4101: 'stream' : unreferenced local variable
+C:\Documents and Settings\x\Desktop\PSOGP 0.6\PSOGP.c(1097) : warning C4102: 'end' : unreferenced label
+C:\Documents and Settings\x\Desktop\PSOGP 0.6\PSOGP.c(676) : warning C4101: 'm' : unreferenced local variable
+C:\Documents and Settings\x\Desktop\PSOGP 0.6\PSOGP.c(1114) : warning C4101: 'c' : unreferenced local variable
+C:\Documents and Settings\x\Desktop\PSOGP 0.6\PSOGP.c(1115) : warning C4101: 'd1' : unreferenced local variable
+C:\Documents and Settings\x\Desktop\PSOGP 0.6\PSOGP.c(1117) : warning C4101: 'x3' : unreferenced local variable
+C:\Documents and Settings\x\Desktop\PSOGP 0.6\PSOGP.c(1117) : warning C4101: 'x4' : unreferenced local variable
+C:\Documents and Settings\x\Desktop\PSOGP 0.6\PSOGP.c(1118) : warning C4101: 'min' : unreferenced local variable
+C:\Documents and Settings\x\Desktop\PSOGP 0.6\PSOGP.c(1117) : warning C4101: 'f1' : unreferenced local variable
+Linking...
+
+
+
+<h3>Results</h3>
+PSOGP.exe - 0 error(s), 9 warning(s)
+</pre>
+</body>
+</html>
